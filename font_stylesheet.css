@@ -1,0 +1,73 @@
+.bold {
+    color: #FFC100 !important;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.averia {
+    font-family: 'M PLUS 2', sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+    color: #FFC100;
+    font-size: 50px;
+}
+
+.title {
+    font-weight: bold;
+    text-align: center;
+    color: #FFC100;
+    font-size: 40px;
+}
+
+h2, h3, h4, h5, h6, p {
+    white-space: pre-wrap;
+    color: #F7F9F9;
+}
+
+.white-font {
+    color: #F7F9F9;
+}
+
+.orange-font {
+    color: #EE6123;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    color: #F7F9F9;
+    background-color: #F7F9F9;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: end;
+}
+
+.left {
+    text-align: left;
+}
+
+.auto-margin-text {
+    margin: auto;
+}
+
+.top-spacing-small {
+    margin-top: 5%;
+}
+
+@media only screen and (max-width: 775px){
+    /* CSS that should be displayed if width is equal to or less than 775px goes here */
+
+    .top-spacing-large {
+        margin-top: 10%;
+    }
+}

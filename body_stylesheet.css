@@ -1,0 +1,203 @@
+html  {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden; 
+}
+
+body {
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+
+    background: linear-gradient(106deg, rgba(38,113,113,1) 0%, rgba(17,14,68,1) 47%, rgba(77,17,85,1) 71%, rgba(155,49,146,1) 100%);
+	background-size: 300% 500%;
+	animation: gradient 13s ease-in-out infinite;
+	height: 100vh;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(17, 14, 68, 0.4);
+}
+
+::-webkit-scrollbar-thumb {    
+    background: rgba(77, 17, 85, 0.85); 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(50, 9, 56, 0.9);
+}
+
+.js-loading *,
+.js-loading *:before,
+.js-loading *:after {
+  animation-play-state: paused !important;
+}
+
+#loader {
+    border: 12px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 12px solid #444444;
+    width: 70px;
+    height: 70px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+  
+.center-load {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1001;
+
+    transition: 300ms opacity ease-in-out;
+}
+
+.portrait {
+    width: 100%;
+    border-radius: 50%;
+    transition: 0.3s ease;
+}
+
+.no-leftright-padding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    z-index: 0;
+}
+
+.no-leftright-margin {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.info-topbottom-padding {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.fixed-link-height {
+    height: 60px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.smallspacer {
+    height: 7vh;
+}
+
+.div-dependent-spacer {
+    height: 50%;
+}
+
+.medspacer {
+    height: 10vh;
+}
+
+.largespacer {
+    height: 15vh;
+}
+
+.ref-button {
+    transition: all .4s ease-in-out;
+}
+
+.ref-button:hover {
+    transform: scale(1.1);
+}
+
+hr {
+    width: 0vw;
+    height: 2px;
+    color: #F7F9F9;
+    background-color: #F7F9F9;
+    animation: line 1s linear forwards;
+}
+
+.bottom-rule hr {
+    bottom: 0;
+    margin: auto !important;
+    margin-bottom: 0;
+    padding: auto !important;
+    padding-bottom: 0;
+    width: 90vw;
+    height: 2px;
+    color: #F7F9F9;
+    background-color: #F7F9F9;
+}
+
+.white-background {
+    background-color: #325E70;
+}
+
+.fixed-title-height {
+    height: 75px;
+    display: table;
+    width: 100%;
+}
+
+.blocked {
+    display: table;
+    width: 100%;
+}
+
+#title:animate {
+    animation: ease-in-out 1.5s;
+}
+
+.center-table {
+    display: table-cell;
+	vertical-align: middle;
+    text-align: center;
+    width: 100%;
+}
+
+.progress {
+    height: 7px;
+    background: #f8f8f8;
+    border-radius: 3px;
+    box-shadow: none;
+    overflow: visible;
+}
+
+.progress .progress-bar {
+    box-shadow: none;
+    border-radius: 3px;
+    position: relative;
+}
+
+.phonespacer {
+    height: 0px;
+}
+
+@media only screen and (max-width: 775px){
+    /* CSS that should be displayed if width is equal to or less than 775px goes here */
+    .portrait {
+        width: 50%;
+        display:block; 
+        margin:auto;
+    }
+
+    .phonespacer {
+        height: 3vh;
+    }
+}
