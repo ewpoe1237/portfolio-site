@@ -109,6 +109,14 @@ body {
     padding-bottom: 10px;
 }
 
+.tinyspacer {
+    height: 2vh;
+}
+
+.xs-spacer {
+    height: 5vh;
+}
+
 .smallspacer {
     height: 7vh;
 }
