@@ -4,6 +4,8 @@ html  {
     margin: 0px;
     padding: 0px;
     overflow: hidden; 
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
 }
 
 body {
@@ -11,7 +13,7 @@ body {
     margin: 0px;
     padding: 0px;
 
-    background: linear-gradient(106deg, rgba(38,113,113,1) 0%, rgba(17,14,68,1) 47%, rgba(77,17,85,1) 71%, rgba(155,49,146,1) 100%);
+    background: linear-gradient(106deg, rgba(38,113,113,1) 0%, rgb(32, 29, 87) 47%, rgba(77,17,85,1) 71%, rgba(155,49,146,1) 100%);
 	background-size: 300% 500%;
 	animation: gradient 13s ease-in-out infinite;
 	height: 100vh;
@@ -53,12 +55,6 @@ body {
     height: 70px;
     animation: spin 1s linear infinite;
 }
-
-@keyframes spin {
-    100% {
-        transform: rotate(360deg);
-    }
-}
   
 .center-load {
     display: flex;
@@ -81,10 +77,6 @@ body {
     width: 100%;
     border-radius: 50%;
     transition: 0.3s ease;
-}
-
-.bigpage {
-    height: 100vh;
 }
 
 .no-leftright-padding {
@@ -189,7 +181,7 @@ hr {
 
 .progress {
     height: 7px;
-    background: #f8f8f8;
+    background: #F7F9F9;
     border-radius: 3px;
     box-shadow: none;
     overflow: visible;

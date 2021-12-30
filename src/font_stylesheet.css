@@ -1,5 +1,5 @@
 .bold {
-    color: #FFC100 !important;
+    color: #FFC100;
 }
 
 .poppins {
@@ -25,18 +25,9 @@ h1 {
 }
 
 h2, h3, h4, h5, h6, p {
-    white-space: pre-wrap;
     color: #F7F9F9;
     padding: 4px;
     margin-bottom: 0;
-}
-
-.white-font {
-    color: #F7F9F9;
-}
-
-.orange-font {
-    color: #EE6123;
 }
 
 hr {
