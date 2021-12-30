@@ -19,6 +19,10 @@ body {
     overflow-x: hidden;
 }
 
+.main-content {
+    transform: translate3d(0,0,0);
+}
+
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -77,6 +81,10 @@ body {
     width: 100%;
     border-radius: 50%;
     transition: 0.3s ease;
+}
+
+.bigpage {
+    height: 100vh;
 }
 
 .no-leftright-padding {

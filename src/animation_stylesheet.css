@@ -101,10 +101,17 @@ a:hover {
   }
 }
 
-.portrait:hover
+
+.portrait-container::before {
+  width:0;
+  height:0;
+  visibility:hidden;
+}
+
+.portrait-container:hover .portrait
 {
-  -webkit-animation: swing 1s ease;
-  animation: swing 1s ease;
+  -webkit-animation: swing 1s ease-in-out;
+  animation: swing 1s ease-in-out;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
