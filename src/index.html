@@ -7,9 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap includes -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
     <!-- Custom CSS -->
     <link rel="stylesheet" href="font_stylesheet.css">
     <link rel="stylesheet" href="body_stylesheet.css">
@@ -34,13 +37,14 @@
         <div id="loader"></div>
     </div>
 
-    <div class="container-fluid fullscreen main-content js-loading" id="main">
-        <div id="intro-container" class="row">
+    <div class="container-fluid fullscreen no-leftright-padding main-content js-loading" id="main">
+        <div id="intro-container" class="row no-leftright-padding no-leftright-margin">
             <div class="row tinyspacer">
                 <!-- a spacer row to divide areas of focus -->
             </div>
-            <!-- Introduction & title page -->
-            <div class="row">
+
+            <!------------------------- Introduction & title section ------------------------->
+            <div class="row no-leftright-padding no-leftright-margin">
                 <div class="col-12">
 
                     <!-- Top of page -->
@@ -143,37 +147,42 @@
                 </div>
             </div>
 
-            <div class="row medspacer"></div>
+            <div class="row smallspacer"></div>
         </div>
 
-        <!-- Education Section -->
+        <!------------------------- Education Section ------------------------->
         <div id="education" class="row colorsection boxshadow">
             <div class="col-12 info-from-left no-leftright-margin no-leftright-padding">
                 <!-- Wrapper for main content -->
-                <div class="row xs-spacer"></div>
-
                 <div class="row">
-                    <!-- WIP - change from one-page to "one-page" with slides/transitions
-                        <div class="col-12 bottom-rule">
-                            <hr />
-                        </div> 
-                        -->
                     <div class="col-12">
                         <!-- a spacer row to divide areas of focus -->
                         <div class="row smallspacer"></div>
                     </div>
 
-                    <div class="col-12 col-md-5 my-auto">
-                        <!-- Section Title -->
-                        <h2 class="center title averia">EDUCATION</h2>
-                        <div class="phonespacer"></div>
+                    <div class="col-12 my-auto center">
+                        <!-- container for title: EDUCATION -->
+                        <div class="row">
+                            <div class="col-12 my-auto center">
+                                <!-- Section Title -->
+                                <h2 class="center title averia">EDUCATION</h2>
+                                <div class="phonespacer"></div>
+                            </div>
+
+                            <div class="col-12">
+                                <!-- a spacer row to divide areas of focus -->
+                                <div class="row smallspacer"></div>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="col-12 col-md-7">
+                    <div class="col-1"></div> <!-- Horizontal spacer -->
+
+                    <div class="col-10">
+                        <!-- Wrapper for main content in education section-->
                         <div class="row">
-                            <!-- Info about Dutch Fork HS -->
-                            <div class="col-1"></div>
-                            <div class="col-10">
+                            <div class="col-6">
+                                <!-- Container for DFHS info -->
                                 <div class="row">
                                     <div class="col-4">
                                         <!-- General Information -->
@@ -195,17 +204,8 @@
                                 </div>
                             </div>
 
-                            <div class="col-1"></div>
-
-                            <div class="col-12">
-                                <!-- a spacer row to divide areas of focus -->
-                                <div class="row smallspacer"></div>
-                            </div>
-
-                            <div class="col-1"></div>
-
                             <!-- Info about Clemson University -->
-                            <div class="col-10">
+                            <div class="col-6">
                                 <div class="row">
                                     <div class="col-4">
                                         <!-- General Information -->
@@ -243,7 +243,7 @@
             </div>
         </div>
 
-        <!-- Skills section -->
+        <!------------------------- Skills section ------------------------->
         <div id="skills-container" class="row">
             <!-- right align class here -->
             <div class="col-12 info-from-right no-leftright-margin no-leftright-padding">
@@ -253,32 +253,47 @@
                         <div class="row smallspacer"></div>
                     </div>
 
-                    <div class="col-12 col-md-5 my-auto center">
-                        <!-- Section Title -->
-                        <h2 class="center title averia">SKILLS</h2>
-                        <div class="phonespacer"></div>
+                    <div class="col-12 my-auto center">
+                        <!-- container for title: SKILLS -->
+                        <div class="row">
+                            <div class="col-12 my-auto center">
+                                <!-- Section Title -->
+                                <h2 class="center title averia">SKILLS</h2>
+                                <div class="phonespacer"></div>
+                            </div>
+
+                            <div class="col-12">
+                                <!-- a spacer row to divide areas of focus -->
+                                <div class="row smallspacer"></div>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="col-12 col-md-7">
+                    <div class="col-12 my-auto center">
                         <div class="row">
                             <!-- Info about specified section-->
-                            <div class = "col-1"></div> <!-- Horiz. spacer -->
-                            <div class = "col-10 my-auto"> <!-- Accordion content -->
-                                <div class = "row">
-                                    <div class = "col-12 my-auto center">
+                            <div class="col-1"></div> <!-- Horiz. spacer -->
+
+                            <div class="col-10 my-auto">
+                                <!-- Accordion content -->
+
+                                <div class="row">
+                                    <div class="col-12 my-auto center">
                                         <div class="accordion" id="skillsAccordion">
-                                            <div class="accordion-item skills-item"> <!-- Container for programming languages section -->
+                                            <div class="accordion-item skills-item">
+                                                <!-- Container for programming languages section -->
                                                 <h2 class="accordion-header poppins" id="headingOne">
-                                                    <button class="accordion-button skills-item skills-button" type="button"
-                                                        data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                                        aria-expanded="true" aria-controls="collapseOne">
+                                                    <button class="accordion-button skills-item skills-button"
+                                                        type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#collapseOne" aria-expanded="true"
+                                                        aria-controls="collapseOne">
                                                         PROGRAMMING LANGUAGES
                                                     </button>
                                                 </h2>
 
                                                 <div id="collapseOne" class="accordion-collapse collapse show"
                                                     aria-labelledby="headingOne" data-bs-parent="#skillsAccordion">
-                                                    
+
                                                     <div class="accordion-body poppins left">
                                                         <strong>This is the first item's accordion body.</strong> It is
                                                         shown by default, until the collapse plugin adds the appropriate
@@ -294,11 +309,13 @@
                                                 </div>
                                             </div>
 
-                                            <div class="accordion-item skills-item"> <!-- Container for backend tech section -->
+                                            <div class="accordion-item skills-item">
+                                                <!-- Container for backend tech section -->
                                                 <h2 class="accordion-header poppins" id="headingTwo">
-                                                    <button class="accordion-button collapsed skills-item skills-button" type="button"
-                                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                                        aria-expanded="false" aria-controls="collapseTwo">
+                                                    <button class="accordion-button collapsed skills-item skills-button"
+                                                        type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#collapseTwo" aria-expanded="false"
+                                                        aria-controls="collapseTwo">
                                                         BACKEND TECHNOLOGIES
                                                     </button>
                                                 </h2>
@@ -321,11 +338,13 @@
                                                 </div>
                                             </div>
 
-                                            <div class="accordion-item skills-item"> <!-- Container for frontend tech section -->
+                                            <div class="accordion-item skills-item">
+                                                <!-- Container for frontend tech section -->
                                                 <h2 class="accordion-header poppins" id="headingThree">
-                                                    <button class="accordion-button collapsed skills-item skills-button" type="button"
-                                                        data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                                        aria-expanded="false" aria-controls="collapseThree">
+                                                    <button class="accordion-button collapsed skills-item skills-button"
+                                                        type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                                        aria-controls="collapseThree">
                                                         FRONTEND TECHNOLOGIES
                                                     </button>
                                                 </h2>
@@ -350,9 +369,12 @@
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
-                            <div class = "col-1"></div> <!-- Horiz. spacer -->
-                                    <!-- <div class="col-8 my-auto center"> (gonna experiment with accordions)
+
+                            <div class="col-1"></div> <!-- Horiz. spacer -->
+
+                            <!-- <div class="col-8 my-auto center"> (gonna experiment with accordions)
 
                                         <div class="row">
                                             <div class="col-6 my-auto info-topbottom-padding">
@@ -486,8 +508,8 @@
             </div>
         </div>
 
+        <!------------------------- Projects section ------------------------->
         <div id="projects-container" class="row colorsection boxshadow">
-            <!-- Projects section -->
 
             <div class="col-12 no-leftright-margin no-leftright-padding">
                 <div class="row">
