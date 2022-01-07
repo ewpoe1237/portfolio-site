@@ -1,566 +1,465 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <!-- Bootstrap includes -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="font_stylesheet.css">
-    <link rel="stylesheet" href="body_stylesheet.css">
-    <link rel="stylesheet" href="animation_stylesheet.css">
-    <link rel="stylesheet" href="carousel_stylesheet.css">
-    <link rel="stylesheet" href="information_stylesheet.css">
-    <link rel="stylesheet" href="pagination_stylesheet.css">
+  <!-- Bootstrap includes -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="font_stylesheet.css" />
+  <link rel="stylesheet" href="body_stylesheet.css" />
+  <link rel="stylesheet" href="animation_stylesheet.css" />
+  <link rel="stylesheet" href="carousel_stylesheet.css" />
+  <link rel="stylesheet" href="information_stylesheet.css" />
+  <link rel="stylesheet" href="pagination_stylesheet.css" />
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Abel&family=M+PLUS+2&family=Poppins:wght@400;700&display=swap"
-        rel="stylesheet">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Abel&family=M+PLUS+2&family=Poppins:wght@400;700&display=swap"
+    rel="stylesheet" />
 
-    <title>Jenna's Portfolio</title>
-    <link rel="shortcut icon" type="image/png" href="ref/heart.png" />
-
+  <title>Jenna's Portfolio</title>
+  <link rel="shortcut icon" type="image/png" href="ref/heart.png" />
 </head>
 
 <body>
-    <div class="center-load" id="loading-page">
-        <div id="loader"></div>
+  <div class="center-load" id="loading-page">
+    <div id="loader"></div>
+  </div>
+
+  <div class="container-fluid fullscreen no-leftright-padding main-content js-loading" id="main">
+    <div id="intro-container" class="row bigpage no-leftright-padding no-leftright-margin">
+      <div class="row tinyspacer">
+        <!-- a spacer row to divide areas of focus -->
+      </div>
+
+      <!------------------------- Introduction & title section ------------------------->
+      <div class="row no-leftright-padding no-leftright-margin">
+        <div class="col-12">
+          <!-- Top of page -->
+          <div class="row">
+            <div class="col-12">
+              <div class="row">
+                <div class="col-2 col-md-4"></div>
+                <!-- Horizontal margin -->
+                <div class="col-8 col-md-4">
+                  <!-- Main Title -->
+                  <div class="fixed-title-height">
+                    <div class="center">
+                      <h1 class="averia title">Hello!</h1>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-2 col-md-4"></div>
+                <!-- Horizontal margin -->
+              </div>
+
+              <div class="row">
+                <div class="col-1 col-md-3"></div>
+                <!-- Horizontal margin -->
+                <div class="col-10 col-md-6">
+                  <!-- Intro Header -->
+                  <div class="blocked">
+                    <div class="center-table">
+                      <h2 class="poppins mainheader">
+                        My name is
+                        <span class="bold poppins">Jenna Hofseth.</span>
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-1 col-md-3"></div>
+                <!-- Horizontal margin -->
+              </div>
+            </div>
+          </div>
+
+          <div class="row tinyspacer"></div>
+          <div class="row xs-spacer"></div>
+
+          <!-- Image and overview of who I am :-) -->
+          <div class="row">
+            <div class="col-1"></div>
+            <!-- Horizontal margin -->
+            <div class="col-10">
+              <!-- Main content -->
+              <div class="row justify-content-center">
+                <div class="col-12 col-md-4 my-auto portrait-container">
+                  <img src="ref/pic-of-me.png" alt="Picture of Website Author" class="portrait" />
+                </div>
+                <div class="col-12 col-md-8 my-auto">
+                  <h2 class="top-spacing-large poppins">
+                    I am currently a<span class="bold poppins">
+                      junior CS student </span>at<span class="bold poppins"> Clemson University.</span>
+                  </h2>
+                  <h2 class="top-spacing-small poppins">
+                    Through my studies in design, full-stack development, and
+                    research applications, I aspire to<span class="bold poppins">
+                      create, lead, and learn.</span>
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="col-1"></div>
+            <!-- Horizontal margin -->
+          </div>
+
+          <!-- Links for Linkedin, Github, Resume -->
+          <div class="row">
+            <div class="col-3 col-md-4"></div>
+            <!-- Horizontal margin -->
+            <div class="col-6 col-md-4 my-auto center fixed-link-height">
+              <!-- Wrapper for links -->
+              <div class="row">
+                <div class="col-md-3"></div>
+                <!-- Additional horizontal margin for medium screen -->
+
+                <!-- Github -->
+                <div class="col-4 col-md-2 center">
+                  <a href="https://github.com/ewpoe1237" target="_blank">
+                    <div class="ref-button">
+                      <i class="bi-github" role="img" aria-label="GitHub"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <!-- LinkedIn -->
+                <div class="col-4 col-md-2 center">
+                  <a href="https://www.linkedin.com/in/jenna-hofseth/" target="_blank">
+                    <div class="ref-button">
+                      <i class="bi bi-linkedin" role="img" aria-label="Linkedin"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <!-- Resume -->
+                <div class="col-4 col-md-2 center">
+                  <a href="ref/Jenna_Hofseth_Resume_Dec_2021.pdf" target="_blank">
+                    <div class="ref-button">
+                      <i class="bi bi-file-person" role="img" aria-label="Resume"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="col-md-3"></div>
+                <!-- Horizontal margin for medium screen -->
+              </div>
+            </div>
+            <div class="col-3 col-md-4"></div>
+            <!-- Horizontal margin -->
+          </div>
+        </div>
+      </div>
+
+      <div class="row smallspacer"></div>
     </div>
 
-    <div class="container-fluid fullscreen no-leftright-padding main-content js-loading" id="main">
-        <div id="intro-container" class="row no-leftright-padding no-leftright-margin">
-            <div class="row tinyspacer">
-                <!-- a spacer row to divide areas of focus -->
-            </div>
-
-            <!------------------------- Introduction & title section ------------------------->
-            <div class="row no-leftright-padding no-leftright-margin">
-                <div class="col-12">
-
-                    <!-- Top of page -->
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-2 col-md-4"></div> <!-- Horizontal margin -->
-                                <div class="col-8 col-md-4">
-                                    <!-- Main Title -->
-                                    <div class="fixed-title-height">
-                                        <div class="center">
-                                            <h1 class="averia">Hello!</h1>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-2 col-md-4"></div> <!-- Horizontal margin -->
-                            </div>
-
-                            <div class="row">
-                                <div class="col-1 col-md-3"></div> <!-- Horizontal margin -->
-                                <div class="col-10 col-md-6">
-                                    <!-- Intro Header -->
-                                    <div class="blocked">
-                                        <div class="center-table">
-                                            <h2 class="poppins">My name is <span class="bold poppins">Jenna
-                                                    Hofseth.</span></h3>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-1 col-md-3"></div> <!-- Horizontal margin -->
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row tinyspacer"></div>
-                    <div class="row xs-spacer"></div>
-
-                    <!-- Image and overview of who I am :-) -->
-                    <div class="row">
-                        <div class="col-1"></div> <!-- Horizontal margin -->
-                        <div class="col-10">
-                            <!-- Main content -->
-                            <div class="row justify-content-center">
-                                <div class="col-12 col-md-4 my-auto portrait-container">
-                                    <img src="ref/pic-of-me.png" alt="Picture of Website Author" class="portrait">
-                                </div>
-                                <div class="col-12 col-md-8 my-auto">
-                                    <h3 class="top-spacing-large poppins">I am currently a<span class="bold poppins">
-                                            junior CS student </span>at<span class="bold poppins"> Clemson
-                                            University.</span></h3>
-                                    <h3 class="top-spacing-small poppins">Through my studies in design, full-stack
-                                        development, and research applications, I aspire to<span class="bold poppins">
-                                            create, lead, and learn.</span></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-1"></div> <!-- Horizontal margin -->
-                    </div>
-
-                    <!-- Links for Linkedin, Github, Resume -->
-                    <div class="row">
-                        <div class="col-3 col-md-4"></div> <!-- Horizontal margin -->
-                        <div class="col-6 col-md-4 my-auto center fixed-link-height">
-                            <!-- Wrapper for links -->
-                            <div class="row">
-                                <div class="col-md-3"></div> <!-- Additional horizontal margin for medium screen -->
-
-                                <!-- Github -->
-                                <div class="col-4 col-md-2 center">
-                                    <a href="https://github.com/ewpoe1237" target="_blank">
-                                        <div class="ref-button">
-                                            <i class="bi-github" role="img" aria-label="GitHub"></i>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <!-- LinkedIn -->
-                                <div class="col-4 col-md-2 center">
-                                    <a href="https://www.linkedin.com/in/jenna-hofseth/" target="_blank">
-                                        <div class="ref-button">
-                                            <i class="bi bi-linkedin" role="img" aria-label="Linkedin"></i>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <!-- Resume -->
-                                <div class="col-4 col-md-2 center">
-                                    <a href="ref/Jenna_Hofseth_Resume_Dec_2021.pdf" target="_blank">
-                                        <div class="ref-button">
-                                            <i class="bi bi-file-person" role="img" aria-label="Resume"></i>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-md-3"></div> <!-- Horizontal margin for medium screen -->
-                            </div>
-                        </div>
-                        <div class="col-3 col-md-4"></div> <!-- Horizontal margin -->
-                    </div>
-                </div>
-            </div>
-
+    <!------------------------- Education Section ------------------------->
+    <div id="education" class="row colorsection boxshadow">
+      <div class="col-12 info-from-left no-leftright-margin no-leftright-padding">
+        <!-- Wrapper for main content -->
+        <div class="row">
+          <div class="col-12">
+            <!-- a spacer row to divide areas of focus -->
             <div class="row smallspacer"></div>
-        </div>
+          </div>
 
-        <!------------------------- Education Section ------------------------->
-        <div id="education" class="row colorsection boxshadow">
-            <div class="col-12 info-from-left no-leftright-margin no-leftright-padding">
-                <!-- Wrapper for main content -->
-                <div class="row">
-                    <div class="col-12">
-                        <!-- a spacer row to divide areas of focus -->
-                        <div class="row smallspacer"></div>
-                    </div>
+          <div class="col-12 my-auto center">
+            <!-- container for title: EDUCATION -->
+            <div class="row">
+              <div class="col-12 my-auto center">
+                <!-- Section Title -->
+                <h2 class="center title averia">Education</h2>
+                <div class="phonespacer"></div>
+              </div>
 
-                    <div class="col-12 my-auto center">
-                        <!-- container for title: EDUCATION -->
-                        <div class="row">
-                            <div class="col-12 my-auto center">
-                                <!-- Section Title -->
-                                <h2 class="center title averia">EDUCATION</h2>
-                                <div class="phonespacer"></div>
-                            </div>
-
-                            <div class="col-12">
-                                <!-- a spacer row to divide areas of focus -->
-                                <div class="row smallspacer"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-1"></div> <!-- Horizontal spacer -->
-
-                    <div class="col-10">
-                        <!-- Wrapper for main content in education section-->
-                        <div class="row">
-                            <div class="col-6">
-                                <!-- Container for DFHS info -->
-                                <div class="row">
-                                    <div class="col-4">
-                                        <!-- General Information -->
-                                        <h4 class="right poppins">Dutch Fork High School <span
-                                                class="bold">(2016-2020)</span></h4>
-                                        <h5 class="right poppins">GPA: <span class="bold">5.14/6.0 W, 3.9/4.0 UW</span>
-                                        </h5>
-                                        <h5 class="right poppins">Graduated: <span class="bold">2020, Honors with
-                                                Stem</span></h5>
-                                    </div>
-                                    <div class="col-8">
-                                        <!-- Specifics -->
-                                        <h5 class="left poppins">Activities and Societies:</h5>
-                                        <p class="left poppins">VEX Robotics Team 7432E (2018-2020,
-                                            President/Programming & Notebook Captain). VEX Robotics team 7432C
-                                            (2017-2018, Vice President & Programming Captain). Technology Student
-                                            Association (2016-2020, 2019-2020 SC State Secretary).</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Info about Clemson University -->
-                            <div class="col-6">
-                                <div class="row">
-                                    <div class="col-4">
-                                        <!-- General Information -->
-                                        <h4 class="right poppins">Clemson University <span
-                                                class="bold">(2021-2023)</span></h4>
-                                        <h5 class="right poppins">Major: <span class="bold">Computer Science</span></h5>
-                                        <h5 class="right poppins">Minor: <span class="bold">Cybersecurity</span></h5>
-                                        <h5 class="right poppins">GPA: <span class="bold">4.0/4.0</span></h5>
-                                    </div>
-                                    <div class="col-8">
-                                        <!-- Specifics -->
-                                        <h5 class="left poppins">Activities and Societies:</h5>
-                                        <h6 class="left poppins">CU Honors College (2021-present). Creative Inquiry
-                                            Robotics Research (2021-present). BCUZ Robotics (2021-present, Skills Team
-                                            Captain 2020-2021). WSBF FM Clemson Radio Station (2021-present, DJ).</h6>
-                                        <h5 class="left poppins"><br>Noteworthy Courses:</h5>
-                                        <h6 class="left poppins">Spring 2021 - Programming Methodologies (C/C++, A).
-                                            Calculus of Several Variables (A). Physics I with Calculus HON (A). </h6>
-                                        <h6 class="left poppins">Fall 2021 - Discrete Structures for Computing (A). Data
-                                            Structures and Algorithms (C++, A). Software Development: From Coder to
-                                            Craftsman HON (Java, MySQL, Swing, A).</h6>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-1"></div>
-                        </div>
-                    </div>
-
-                    <div class="col-12">
-                        <!-- a spacer row to divide areas of focus -->
-                        <div class="row smallspacer"></div>
-                    </div>
-                </div>
+              <div class="col-12">
+                <!-- a spacer row to divide areas of focus -->
+                <div class="row smallspacer"></div>
+              </div>
             </div>
-        </div>
+          </div>
 
-        <!------------------------- Skills section ------------------------->
-        <div id="skills-container" class="row">
-            <!-- right align class here -->
-            <div class="col-12 info-from-right no-leftright-margin no-leftright-padding">
+          <div class="col-1"></div>
+          <!-- Horizontal spacer -->
+
+          <div class="col-10">
+            <!-- Wrapper for main content in education section-->
+            <div class="row">
+              <div class="col-6">
+                <!-- Container for DFHS info -->
                 <div class="row">
-                    <div class="col-12">
-                        <!-- a spacer row to divide areas of focus -->
-                        <div class="row smallspacer"></div>
-                    </div>
-
-                    <div class="col-12 my-auto center">
-                        <!-- container for title: SKILLS -->
-                        <div class="row">
-                            <div class="col-12 my-auto center">
-                                <!-- Section Title -->
-                                <h2 class="center title averia">SKILLS</h2>
-                                <div class="phonespacer"></div>
-                            </div>
-
-                            <div class="col-12">
-                                <!-- a spacer row to divide areas of focus -->
-                                <div class="row smallspacer"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-12 my-auto center">
-                        <div class="row">
-                            <!-- Info about specified section-->
-                            <div class="col-1"></div> <!-- Horiz. spacer -->
-
-                            <div class="col-10 my-auto">
-                                <!-- Accordion content -->
-
-                                <div class="row">
-                                    <div class="col-12 my-auto center">
-                                        <div class="accordion" id="skillsAccordion">
-                                            <div class="accordion-item skills-item">
-                                                <!-- Container for programming languages section -->
-                                                <h2 class="accordion-header poppins" id="headingOne">
-                                                    <button class="accordion-button skills-item skills-button"
-                                                        type="button" data-bs-toggle="collapse"
-                                                        data-bs-target="#collapseOne" aria-expanded="true"
-                                                        aria-controls="collapseOne">
-                                                        PROGRAMMING LANGUAGES
-                                                    </button>
-                                                </h2>
-
-                                                <div id="collapseOne" class="accordion-collapse collapse show"
-                                                    aria-labelledby="headingOne" data-bs-parent="#skillsAccordion">
-
-                                                    <div class="accordion-body poppins left">
-                                                        <strong>This is the first item's accordion body.</strong> It is
-                                                        shown by default, until the collapse plugin adds the appropriate
-                                                        classes that we use to style each element. These classes control
-                                                        the overall appearance, as well as the showing and hiding via
-                                                        CSS transitions. You can modify any of this with custom CSS or
-                                                        overriding our default variables. It's also worth noting that
-                                                        just about any HTML can go within the
-                                                        <code>.accordion-body</code>, though the transition does limit
-                                                        overflow.
-                                                    </div>
-
-                                                </div>
-                                            </div>
-
-                                            <div class="accordion-item skills-item">
-                                                <!-- Container for backend tech section -->
-                                                <h2 class="accordion-header poppins" id="headingTwo">
-                                                    <button class="accordion-button collapsed skills-item skills-button"
-                                                        type="button" data-bs-toggle="collapse"
-                                                        data-bs-target="#collapseTwo" aria-expanded="false"
-                                                        aria-controls="collapseTwo">
-                                                        BACKEND TECHNOLOGIES
-                                                    </button>
-                                                </h2>
-
-                                                <div id="collapseTwo" class="accordion-collapse collapse"
-                                                    aria-labelledby="headingTwo" data-bs-parent="#skillsAccordion">
-
-                                                    <div class="accordion-body">
-                                                        <strong>This is the second item's accordion body.</strong> It is
-                                                        hidden by default, until the collapse plugin adds the
-                                                        appropriate classes that we use to style each element. These
-                                                        classes control the overall appearance, as well as the showing
-                                                        and hiding via CSS transitions. You can modify any of this with
-                                                        custom CSS or overriding our default variables. It's also worth
-                                                        noting that just about any HTML can go within the
-                                                        <code>.accordion-body</code>, though the transition does limit
-                                                        overflow.
-                                                    </div>
-
-                                                </div>
-                                            </div>
-
-                                            <div class="accordion-item skills-item">
-                                                <!-- Container for frontend tech section -->
-                                                <h2 class="accordion-header poppins" id="headingThree">
-                                                    <button class="accordion-button collapsed skills-item skills-button"
-                                                        type="button" data-bs-toggle="collapse"
-                                                        data-bs-target="#collapseThree" aria-expanded="false"
-                                                        aria-controls="collapseThree">
-                                                        FRONTEND TECHNOLOGIES
-                                                    </button>
-                                                </h2>
-
-                                                <div id="collapseThree" class="accordion-collapse collapse skills-item"
-                                                    aria-labelledby="headingThree" data-bs-parent="#skillsAccordion">
-
-                                                    <div class="accordion-body">
-                                                        <strong>This is the third item's accordion body.</strong> It is
-                                                        hidden by default, until the collapse plugin adds the
-                                                        appropriate classes that we use to style each element. These
-                                                        classes control the overall appearance, as well as the showing
-                                                        and hiding via CSS transitions. You can modify any of this with
-                                                        custom CSS or overriding our default variables. It's also worth
-                                                        noting that just about any HTML can go within the
-                                                        <code>.accordion-body</code>, though the transition does limit
-                                                        overflow.
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="col-1"></div> <!-- Horiz. spacer -->
-
-                            <!-- <div class="col-8 my-auto center"> (gonna experiment with accordions)
-
-                                        <div class="row">
-                                            <div class="col-6 my-auto info-topbottom-padding">
-                                                <h5 class="poppins right auto-margin-text">Java</h5>
-                                            </div>
-                                            <div class="col-6 my-auto center">
-                                                <div class="progress">
-                                                    <div class="progress-bar" style="width:85%; background:#FFC100;">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="row">
-                                            <div class="col-6 my-auto info-topbottom-padding">
-                                                <h5 class="poppins right auto-margin-text">C++</h5>
-                                            </div>
-                                            <div class="col-6 my-auto center">
-                                                <div class="progress">
-                                                    <div class="progress-bar" style="width:80%; background:#FFC100;">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="row">
-                                            <div class="col-6 my-auto info-topbottom-padding">
-                                                <h5 class="poppins right auto-margin-text">AWS RDS & EC2</h5>
-                                            </div>
-                                            <div class="col-6 my-auto center">
-                                                <div class="progress">
-                                                    <div class="progress-bar" style="width: 70%; background:#FFC100;">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="row">
-                                            <div class="col-6 my-auto info-topbottom-padding">
-                                                <h5 class="poppins right auto-margin-text">C</h5>
-                                            </div>
-                                            <div class="col-6 my-auto center">
-                                                <div class="progress">
-                                                    <div class="progress-bar" style="width: 65%; background:#FFC100;">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="row">
-                                            <div class="col-6 my-auto info-topbottom-padding">
-                                                <h5 class="poppins right auto-margin-text">HTML & CSS</h5>
-                                            </div>
-                                            <div class="col-6 my-auto center">
-                                                <div class="progress">
-                                                    <div class="progress-bar" style="width:65%; background:#FFC100;">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="row">
-                                            <div class="col-6 my-auto info-topbottom-padding">
-                                                <h5 class="poppins right auto-margin-text">Linux</h5>
-                                            </div>
-                                            <div class="col-6 my-auto center">
-                                                <div class="progress">
-                                                    <div class="progress-bar" style="width: 65%; background:#FFC100;">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="row">
-                                            <div class="col-6 my-auto info-topbottom-padding">
-                                                <h5 class="poppins right auto-margin-text">Python</h5>
-                                            </div>
-                                            <div class="col-6 my-auto center">
-                                                <div class="progress">
-                                                    <div class="progress-bar" style="width: 55%; background:#FFC100;">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="row">
-                                            <div class="col-6 my-auto info-topbottom-padding">
-                                                <h5 class="poppins right auto-margin-text">JavaScript</h5>
-                                            </div>
-                                            <div class="col-6 my-auto center">
-                                                <div class="progress">
-                                                    <div class="progress-bar" style="width:55%; background:#FFC100;">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="row">
-                                            <div class="col-6 my-auto info-topbottom-padding">
-                                                <h5 class="poppins right auto-margin-text">MySQL</h5>
-                                            </div>
-                                            <div class="col-6 my-auto center">
-                                                <div class="progress">
-                                                    <div class="progress-bar" style="width: 55%; background:#FFC100;">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="row">
-                                            <div class="col-6 my-auto info-topbottom-padding">
-                                                <h5 class="poppins right auto-margin-text">Java Swing</h5>
-                                            </div>
-                                            <div class="col-6 my-auto center">
-                                                <div class="progress">
-                                                    <div class="progress-bar" style="width: 45%; background:#FFC100;">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div> 
-
-                                    </div> -->
-                        </div>
-                    </div>
-
-                    <div class="col-12">
-                        <!-- a spacer row to divide areas of focus -->
-                        <div class="row smallspacer"></div>
-                    </div>
+                  <div class="col-4">
+                    <!-- General Information -->
+                    <h4 class="right poppins">
+                      Dutch Fork High School
+                      <span class="bold">(2016-2020)</span>
+                    </h4>
+                    <h5 class="right poppins">
+                      GPA: <span class="bold">5.14/6.0 W, 3.9/4.0 UW</span>
+                    </h5>
+                    <h5 class="right poppins">
+                      Graduated:
+                      <span class="bold">2020, Honors with Stem</span>
+                    </h5>
+                  </div>
+                  <div class="col-8">
+                    <!-- Specifics -->
+                    <h5 class="left poppins">Activities and Societies:</h5>
+                    <p class="left poppins">
+                      VEX Robotics Team 7432E (2018-2020,
+                      President/Programming & Notebook Captain). VEX Robotics
+                      team 7432C (2017-2018, Vice President & Programming
+                      Captain). Technology Student Association (2016-2020,
+                      2019-2020 SC State Secretary).
+                    </p>
+                  </div>
                 </div>
-            </div>
-        </div>
+              </div>
 
-        <!------------------------- Projects section ------------------------->
-        <div id="projects-container" class="row colorsection boxshadow">
-
-            <div class="col-12 no-leftright-margin no-leftright-padding">
+              <!-- Info about Clemson University -->
+              <div class="col-6">
                 <div class="row">
-                    <div class="col-12">
-                        <!-- a spacer row to divide areas of focus -->
-                        <div class="row smallspacer"></div>
-                    </div>
-
-                    <div class="col-12 my-auto center">
-                        <!-- container for project content -->
-                        <div class="row">
-                            <div class="col-12 my-auto center">
-                                <!-- Section Title -->
-                                <h2 class="center title averia">PROJECTS</h2>
-                                <div class="phonespacer"></div>
-                            </div>
-
-                            <div class="col-12">
-                                <!-- a spacer row to divide areas of focus -->
-                                <div class="row smallspacer"></div>
-                            </div>
-
-                            <div class="col-12 my-auto center">
-
-                            </div>
-                        </div>
-
-
-                    </div>
-
-                    <div class="col-12">
-                        <!-- a spacer row to divide areas of focus -->
-                        <div class="row smallspacer"></div>
-                    </div>
+                  <div class="col-4">
+                    <!-- General Information -->
+                    <h4 class="right poppins">
+                      Clemson University <span class="bold">(2021-2023)</span>
+                    </h4>
+                    <h5 class="right poppins">
+                      Major: <span class="bold">Computer Science</span>
+                    </h5>
+                    <h5 class="right poppins">
+                      Minor: <span class="bold">Cybersecurity</span>
+                    </h5>
+                    <h5 class="right poppins">
+                      GPA: <span class="bold">4.0/4.0</span>
+                    </h5>
+                  </div>
+                  <div class="col-8">
+                    <!-- Specifics -->
+                    <h5 class="left poppins">Activities and Societies:</h5>
+                    <h6 class="left poppins">
+                      CU Honors College (2021-present). Creative Inquiry
+                      Robotics Research (2021-present). BCUZ Robotics
+                      (2021-present, Skills Team Captain 2020-2021). WSBF FM
+                      Clemson Radio Station (2021-present, DJ).
+                    </h6>
+                    <h5 class="left poppins"><br />Noteworthy Courses:</h5>
+                    <h6 class="left poppins">
+                      Spring 2021 - Programming Methodologies (C/C++, A).
+                      Calculus of Several Variables (A). Physics I with
+                      Calculus HON (A).
+                    </h6>
+                    <h6 class="left poppins">
+                      Fall 2021 - Discrete Structures for Computing (A). Data
+                      Structures and Algorithms (C++, A). Software
+                      Development: From Coder to Craftsman HON (Java, MySQL,
+                      Swing, A).
+                    </h6>
+                  </div>
                 </div>
+              </div>
+
+              <div class="col-1"></div>
             </div>
+          </div>
+
+          <div class="col-12">
+            <!-- a spacer row to divide areas of focus -->
+            <div class="row smallspacer"></div>
+          </div>
         </div>
+      </div>
     </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-    <script src="load.js"></script>
+    <!------------------------- Skills section ------------------------->
+    <div id="skills-container" class="row">
+      <!-- right align class here -->
+      <div class="col-12 info-from-right no-leftright-margin no-leftright-padding">
+        <div class="row">
+          <div class="col-12">
+            <!-- a spacer row to divide areas of focus -->
+            <div class="row smallspacer"></div>
+          </div>
+
+          <div class="col-12 my-auto center">
+            <!-- container for title: SKILLS -->
+            <div class="row">
+              <div class="col-12 my-auto center">
+                <!-- Section Title -->
+                <h2 class="center title averia">Skills</h2>
+                <div class="phonespacer"></div>
+              </div>
+
+              <div class="col-12">
+                <!-- a spacer row to divide areas of focus -->
+                <div class="row xs-spacer"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 my-auto center">
+            <div class="row">
+              <!-- Info about specified section-->
+              <div class="col-2"></div>
+              <!-- Horiz. spacer -->
+
+              <div class="col-8 my-auto">
+                <!-- Accordion content -->
+
+                <div class="row">
+                  <div class="col-12 my-auto center">
+                    <!--Main wrapper for actual accordion-->
+                    <div class="accordion" id="skillsAccordion">
+                      <!-- Container for programming languages section -->
+                      <div class="accordion-item skills-item">
+                        <h2 class="accordion-header poppins" id="headingOne">
+                          <button class="accordion-button skills-item skills-button" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                            aria-controls="collapseOne">
+                            Programming Languages
+                          </button>
+                        </h2>
+
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                          data-bs-parent="#skillsAccordion">
+                          <div class="accordion-body poppins left">
+                            <ol>
+                              <li>Java</li>
+                              <li>C++</li>
+                              <li>MySQL</li>
+                              <li>Python</li>
+                              <li>C</li>
+                              <li>CSS & HTML</li>
+                              <li>JavaScript</li>
+                              <li>Swift</li>
+                            </ol>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- Container for backend tech section -->
+                      <div class="accordion-item skills-item">
+                        <h2 class="accordion-header poppins" id="headingTwo">
+                          <button class="accordion-button collapsed skills-item skills-button" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                            aria-controls="collapseTwo">
+                            Back-End Technologies
+                          </button>
+                        </h2>
+
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                          data-bs-parent="#skillsAccordion">
+                          <div class="accordion-body poppins left">
+                            <ol>
+                              <li>Linux</li>
+                              <li>ROS</li>
+                              <li>Beautiful Soup</li>
+                              <li>Amazon AWS RDS & EC2</li>
+                              <li>JUnit</li>
+                              <li>JDBC</li>
+                            </ol>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- Container for frontend tech section -->
+                      <div class="accordion-item skills-item">
+                        <h2 class="accordion-header poppins" id="headingThree">
+                          <button class="accordion-button collapsed skills-item skills-button" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                            aria-controls="collapseThree">
+                            Front-End Technologies
+                          </button>
+                        </h2>
+
+                        <div id="collapseThree" class="accordion-collapse collapse skills-item"
+                          aria-labelledby="headingThree" data-bs-parent="#skillsAccordion">
+                          <div class="accordion-body poppins left">
+                            <ol>
+                              <li>Bootstrap</li>
+                              <li>Java Swing</li>
+                            </ol>
+                          </div>
+                        </div>
+                      <!-- Closing tag for last section of accordion -->
+                      </div> 
+                    <!-- Closing tag for actual accordion -->  
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Horiz. spacer -->
+              <div class="col-2"></div>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <!-- a spacer row to divide areas of focus -->
+            <div class="row smallspacer"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------------------------- Projects section ------------------------->
+    <div id="projects-container" class="row colorsection boxshadow">
+      <div class="col-12 no-leftright-margin no-leftright-padding">
+        <div class="row">
+          <div class="col-12">
+            <!-- a spacer row to divide areas of focus -->
+            <div class="row smallspacer"></div>
+          </div>
+
+          <div class="col-12 my-auto center">
+            <!-- container for project content -->
+            <div class="row">
+              <div class="col-12 my-auto center">
+                <!-- Section Title -->
+                <h2 class="center title averia">Projects</h2>
+                <div class="phonespacer"></div>
+              </div>
+
+              <div class="col-12">
+                <!-- a spacer row to divide areas of focus -->
+                <div class="row smallspacer"></div>
+              </div>
+
+              <div class="col-12 my-auto center"></div>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <!-- a spacer row to divide areas of focus -->
+            <div class="row smallspacer"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="load.js"></script>
 </body>
 
 </html>

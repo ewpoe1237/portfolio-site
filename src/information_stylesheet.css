@@ -7,7 +7,7 @@
 .skills-button {
     background-color: rgba(17, 14, 68, 0.2) !important;
     color: #F7F9F9 !important;
-    font-size: 17px !important;
+    font-size: 20px !important;
 }
 
 .accordion {
@@ -22,4 +22,25 @@
 .accordion-button:focus, .accordion-button:active {
     outline: none !important;
     box-shadow: none !important;
+}
+
+ol li {
+    list-style-type: none;
+    counter-increment: item;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    font-size: 17px;
+}
+
+ol {
+    margin-bottom: 0 !important;
+    padding-left: 3px !important;
+}
+
+ol li:before {
+    content: counter(item);
+    margin-right: 3px;
+    padding: 3px 8px;
+    color: #FFC100;
+    font-weight: bold;
 }

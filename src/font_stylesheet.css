@@ -21,7 +21,11 @@ h1 {
     font-weight: bold;
     text-align: center;
     color: #FFC100;
-    font-size: 40px;
+    font-size: 7vh;
+}
+
+.mainheader {
+    font-size: 4.5vh;
 }
 
 h2, h3, h4, h5, h6, p {
