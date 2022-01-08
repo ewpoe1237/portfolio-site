@@ -44,3 +44,7 @@ ol li:before {
     color: #FFC100;
     font-weight: bold;
 }
+
+.custom-carousel {
+    height: 70vh;
+}

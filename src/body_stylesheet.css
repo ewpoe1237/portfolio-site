@@ -6,6 +6,7 @@ html  {
     overflow: hidden; 
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -23,6 +24,18 @@ body {
 
 .main-content {
     transform: translate3d(0,0,0);
+}
+
+.fixed-slide-height {
+    height: 90vh;
+}
+
+.colorsection {
+    background-color: rgba(17, 14, 68, 0.3);
+}
+
+.boxshadow {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 4px 8px 0px, rgba(14, 30, 37, 0.32) 0px -4px 64px 0px;
 }
 
 ::-webkit-scrollbar {
@@ -79,6 +92,10 @@ body {
     transition: 0.3s ease;
 }
 
+.fixed-button-height {
+    height: 70px;
+}
+
 .no-leftright-padding {
     padding-left: 0 !important;
     padding-right: 0 !important;
@@ -95,10 +112,17 @@ body {
     padding-bottom: 4px;
 }
 
-.fixed-link-height {
-    height: 60px;
-    padding-top: 5px;
-    padding-bottom: 10px;
+.right-side-margin {
+    margin-right: 5%;
+}
+
+.left-side-margin {
+    margin-left: 5%;
+}
+
+.both-left-right-margin {
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .tinyspacer {
@@ -107,6 +131,10 @@ body {
 
 .xs-spacer {
     height: 5vh;
+}
+
+.fontspacer {
+    height: 7px;
 }
 
 .smallspacer {
@@ -123,14 +151,6 @@ body {
 
 .largespacer {
     height: 15vh;
-}
-
-.ref-button {
-    transition: all .4s ease-in-out;
-}
-
-.ref-button:hover {
-    transform: scale(1.1);
 }
 
 hr {
@@ -157,26 +177,8 @@ hr {
     background-color: #325E70;
 }
 
-.fixed-title-height {
-    height: 75px;
-    display: table;
-    width: 100%;
-}
-
-.blocked {
-    display: table;
-    width: 100%;
-}
-
 #title:animate {
     animation: ease-in-out 1.5s;
-}
-
-.center-table {
-    display: table-cell;
-	vertical-align: middle;
-    text-align: center;
-    width: 100%;
 }
 
 .progress {

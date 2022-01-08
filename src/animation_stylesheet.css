@@ -4,17 +4,11 @@
   }
 }
 
-a {
-    color: #F7F9F9;
-    text-decoration: none;
-    font-size: 7vh;
-    text-align: center;
-}
-
 a:hover {
     color: #F7F9F9;
     text-decoration: none;
     text-align: center;
+    font-size: 60px;
 }
 
 .fade-out-loader {
@@ -105,7 +99,6 @@ a:hover {
       transform: translateY(0);
   }
 }
-
 
 .portrait-container::before {
   width:0;

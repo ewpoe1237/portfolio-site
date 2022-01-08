@@ -23,7 +23,7 @@ document.onreadystatechange = function() {
         document.querySelector(".main-content").style.visibility = "visible";
 
         var mainContent = document.getElementById("main");
-        mainContent.style.animation = "fadeInPage 1s ease-in-out";
+        mainContent.style.animation = "fadeInPage 1.3s ease-in-out";
 
         document.querySelector("body").style.overflowY = "auto";
         document.querySelector("body").style.overflowX = "hidden";

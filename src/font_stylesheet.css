@@ -3,35 +3,46 @@
 }
 
 .poppins {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .averia {
-    font-family: 'M PLUS 2', sans-serif;
-}
-
-h1 {
-    font-weight: bold;
-    text-align: center;
-    color: #FFC100;
-    font-size: 50px;
+    font-family: 'Belleza', sans-serif;
 }
 
 .title {
     font-weight: bold;
     text-align: center;
     color: #FFC100;
-    font-size: 7vh;
+    font-size: 56px;
 }
 
-.mainheader {
-    font-size: 4.5vh;
+h1 {
+    font-weight: bold;
+    text-align: center;
+    color: #FFC100;
+    margin-bottom: 4px;
 }
 
 h2, h3, h4, h5, h6, p {
     color: #F7F9F9;
-    padding: 4px;
-    margin-bottom: 0;
+    margin-bottom: 4px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+.mainheader {
+    font-size: 35px;
+}
+
+a {
+    color: #F7F9F9;
+    text-decoration: none;
+    font-size: 54px;
+    text-align: center;
+    transition: .4s ease-in-out;
 }
 
 hr {
