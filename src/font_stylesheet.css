@@ -6,6 +6,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
+form, input, label {
+    font-family: 'Roboto', sans-serif;
+    color: #F7F9F9 !important;
+}
+
 .averia {
     font-family: 'Playball', cursive;
     letter-spacing: 3px;
@@ -22,7 +27,6 @@ h1 {
     font-weight: bold;
     text-align: center;
     color: #FFC100;
-    margin-bottom: 4px;
 }
 
 h2, h3, h4, h5, h6, p {
@@ -38,12 +42,19 @@ h2 {
     font-size: 35px;
 }
 
-a {
+.info-link {
     color: #F7F9F9;
     text-decoration: none;
     font-size: 54px;
     text-align: center;
     transition: .4s ease-in-out;
+}
+
+.info-link:hover {
+    color: #F7F9F9;
+    text-decoration: none;
+    text-align: center;
+    font-size: 60px;
 }
 
 hr {

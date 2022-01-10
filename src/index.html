@@ -110,21 +110,21 @@
             <div class="col-1"></div>
             <!-- Link for GitHub -->
             <div class="col center">
-              <a href="https://github.com/ewpoe1237" target="_blank">
+              <a class = "info-link" href="https://github.com/ewpoe1237" target="_blank">
                 <i class="bi-github" role="img" aria-label="GitHub"></i>
               </a>
             </div>
 
             <!-- Link for LinkedIn-->
             <div class="col center">
-              <a href="https://www.linkedin.com/in/jenna-hofseth/" target="_blank">
+              <a class = "info-link" href="https://www.linkedin.com/in/jenna-hofseth/" target="_blank">
                 <i class="bi bi-linkedin" role="img" aria-label="Linkedin"></i>
               </a>
             </div>
 
             <!-- Link for resume -->
             <div class="col center">
-              <a href="ref/Jenna_Hofseth_Resume_Dec_2021.pdf" target="_blank">
+              <a class = "info-link" href="ref/Jenna_Hofseth_Resume_Dec_2021.pdf" target="_blank">
                 <i class="bi bi-file-person" role="img" aria-label="Resume"></i>
               </a>
             </div>
@@ -389,9 +389,9 @@
           <div class="card center">
             <img class="card-img-top" src="ref/mileu-tank.PNG" alt="Mileu tank from research">
             <div class="card-body">
-              <h5 class="card-title"><span class="bold">Vision-Controlled Navigational Robotics</span></h5>
-              <p class="card-text">C++, Python, Arduino, ROS. 2021-<em>present.</em></p>
-              <p class="card-text">This research lab focuses on ground robots and drones, and this semester we
+              <h5 class="card-title poppins"><span class="bold">Vision-Controlled Navigational Robotics</span></h5>
+              <p class="card-text poppins">C++, Python, Arduino, ROS. 2021-<em>present.</em></p>
+              <p class="card-text poppins">This research lab focuses on ground robots and drones, and this semester we
                 prototyped the Mileu Babel tank. Our team works with vision sensors such as the RPLidar A2 and Intel
                 RealSense D435i depth camera to integrate mapping and vision-based navigation in autonomous
                 movement.
@@ -403,8 +403,8 @@
             <img class="card-img-top" src="ref/transcript-sample.PNG"
               alt="Screenshot of last semester's transcript">
             <div class="card-body">
-              <h5 class="card-title"><span class="bold">University Coursework</span></h5>
-              <p class="card-text">Completed various assignments over undergraduate curriculum working with several
+              <h5 class="card-title poppins"><span class="bold">University Coursework</span></h5>
+              <p class="card-text poppins">Completed various assignments over undergraduate curriculum working with several
                 types of data structures and algorithms. Developed projects using concepts such as databases, binary
                 search trees, hashing, recursion, search & sort algorithms, and linked lists.
               </p>
@@ -423,9 +423,9 @@
           <div class="card center">
             <img class="card-img-top" src="ref/robot.JPG" alt="Our team's last robot">
             <div class="card-body">
-              <h5 class="card-title"><span class="bold">VexU Team BCUZ</span></h5>
-              <p class="card-text">C++, Vex PROS w/ OkapiLib. 2016-<em>present.</em></p>
-              <p class="card-text">While being on this team, we have developed a number of features including
+              <h5 class="card-title poppins"><span class="bold">VexU Team BCUZ</span></h5>
+              <p class="card-text poppins">C++, Vex PROS w/ OkapiLib. 2016-<em>present.</em></p>
+              <p class="card-text poppins">While being on this team, we have developed a number of features including
                 user-control macros, indexing systems, and autonomous movement algorithms. I am primarily
                 responsible
                 for programming the robot to score during the autonomous period.</p>
@@ -435,9 +435,9 @@
           <div class="card center">
             <img class="card-img-top" src="ref/cs-scheduler.PNG" alt="Screenshot of student scheduler">
             <div class="card-body">
-              <h5 class="card-title"><span class="bold">Clemson Student Scheduler</span></h5>
-              <p class="card-text">MySQL, AWS, Java, Swing. 2021-<em>present.</em></p>
-              <p class="card-text">App that works with a database to provide
+              <h5 class="card-title poppins"><span class="bold">Clemson Student Scheduler</span></h5>
+              <p class="card-text poppins">MySQL, AWS, Java, Swing. 2021-<em>present.</em></p>
+              <p class="card-text poppins">App that works with a database to provide
                 Clemson students an easy way to algorithmically generate and edit schedules and provide
                 administration a way to alter or add new data
                 to the database. Initially brainstormed as a semester-long honors project, so currently limited to
@@ -450,6 +450,107 @@
 
       <div class="col-12">
         <div class="xs-spacer"></div>
+      </div>
+    </div>
+
+    <!-- Contact section -->
+    <div id="contact-container" class="row noleftright-margin noleftright-padding">
+      <div class="col-12">
+        <!-- a spacer row to divide areas of focus -->
+        <div class="row xs-spacer"></div>
+      </div>
+
+      <div class="col-12 center my-auto">
+        <!-- Section Title -->
+        <h2 class="center title averia">Contact Me</h2>
+      </div>
+
+      <div class="col-12">
+        <!-- a spacer to divide areas of focus -->
+        <div class="tinyspacer"></div>
+      </div>
+
+      <div class="col-12 center">
+        <h4 class="poppins">If you would like to chat, please send a message using the form below!</h4>
+      </div>
+
+      <div class="col-12">
+        <!-- a spacer to divide areas of focus -->
+        <div class="xs-spacer"></div>
+      </div>
+
+      <!-- horizontal spacer -->
+      <div class="col-1"></div>
+
+      <div class="col-10 form-container">
+        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+          <div class="row">
+            <!-- Spacer -->
+            <div class="col-12">
+              <div class="form-spacer"></div>
+            </div>
+
+            <div class="col-6">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" name="name" class="form-control" id="name" placeholder="Jane Doe">
+              </div>
+            </div>
+
+            <div class="col-6">
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="email@xyz.com">
+              </div>
+            </div>
+
+            <!-- Spacer -->
+            <div class="col-12">
+              <div class="form-spacer"></div>
+            </div>
+
+            <div class="col-12">
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" name="subject" class="form-control" id="subject" aria-describedby="emailHelp" placeholder="Subject">
+              </div>
+            </div>
+
+            <!-- Spacer -->
+            <div class="col-12">
+              <div class="form-spacer"></div>
+            </div>
+
+            <div class="col-12">
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea name="message" class="form-control" id="message" rows="3"></textarea>
+              </div>
+            </div>
+          </div>
+        </form>
+
+        <!-- spacer for below form -->
+        <div class="col-12">
+          <div class="form-spacer"></div>
+          <div class="form-spacer"></div>
+        </div>
+
+        <!-- Submit button -->
+        <div class="col-12 center">
+          <a class="formbutton" onclick="document.getElementById('contact-form').submit();">Send</a>
+        </div>
+
+        <!-- spacer for below form -->
+        <div class="col-12">
+          <div class="form-spacer"></div>
+          <div class="form-spacer"></div>
+        </div>
+      </div>
+
+      <div class="col-12">
+        <!-- a spacer to divide areas of focus -->
+        <div class="smallspacer"></div>
       </div>
     </div>
   </div>
