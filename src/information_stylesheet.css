@@ -45,6 +45,24 @@ ol li:before {
     font-weight: bold;
 }
 
-.custom-carousel {
-    height: 70vh;
+.card-group {
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+.card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px; 
+    background-color: rgba(17, 14, 68, 0.2);
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+@media only screen and (max-width: 775px){
+    /* CSS that should be displayed if width is equal to or less than 775px goes here */
+    .card {
+       width: 50%;
+       height: auto; 
+    }
 }
