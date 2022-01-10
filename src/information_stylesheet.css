@@ -59,41 +59,11 @@ ol li:before {
     margin-right: 3%;
 }
 
-.form-container {
-    background-color: rgba(17, 14, 68, 0.2);
-    border-radius: 4px;
-}
-
-input, textarea {
-    background-color: rgba(17, 14, 68, 0.3) !important;
-}
-
-.formbutton {
-    background-color: rgb(32, 29, 77);
-    color: #F7F9F9;
-    border-radius: 4px;
-    font-size: 20px;
+.contact-button {
+    color: #FFC100;
     text-decoration: none;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.formbutton:hover {
-    background-color: rgb(19, 17, 51);;
-    color: #e6f0f0;
-    border-radius: 4px;
-    font-size: 20px;
-    text-decoration: none;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.form-spacer {
-    height: 10px;
+    font-size: 70px;
+    text-align: center;
 }
 
 @media only screen and (max-width: 775px){

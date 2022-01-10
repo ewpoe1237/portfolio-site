@@ -4,13 +4,6 @@
   }
 }
 
-a:hover {
-    color: #F7F9F9;
-    text-decoration: none;
-    text-align: center;
-    font-size: 60px;
-}
-
 .fade-out-loader {
   opacity: 0;
 }
