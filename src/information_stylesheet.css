@@ -65,11 +65,3 @@ ol li:before {
     font-size: 70px;
     text-align: center;
 }
-
-@media only screen and (max-width: 775px){
-    /* CSS that should be displayed if width is equal to or less than 775px goes here */
-    .card {
-       width: 50%;
-       height: auto; 
-    }
-}
