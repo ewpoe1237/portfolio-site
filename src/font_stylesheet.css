@@ -2,7 +2,7 @@
     color: #FFC100;
 }
 
-.poppins {
+.body-font {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -11,7 +11,7 @@ form, input, label {
     color: #F7F9F9 !important;
 }
 
-.averia {
+.title-font {
     font-family: 'Playball', cursive;
     letter-spacing: 3px;
 }
