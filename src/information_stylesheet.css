@@ -29,25 +29,24 @@
     box-shadow: none !important;
 }
 
-ol li {
-    list-style-type: none;
-    counter-increment: item;
-    padding-bottom: 3px;
-    padding-top: 3px;
-    font-size: 17px;
-}
-
-ol {
-    margin-bottom: 0 !important;
-    padding-left: 3px !important;
-}
-
-ol li:before {
-    content: counter(item);
-    margin-right: 3px;
-    padding: 3px 8px;
+ul li::before {
+    content: "‣";
+    font-size: 25px;
+    display: inline-block;
     color: #FFC100;
     font-weight: bold;
+    padding-right: 6px;
+    vertical-align: middle;
+}
+
+li span {
+    vertical-align: middle;
+}
+
+ul {
+    margin-bottom: 0 !important;
+    padding-left: 3px !important;
+    list-style: none;
 }
 
 .card-group {
